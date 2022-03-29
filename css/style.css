@@ -1,0 +1,91 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: black;
+    font-family: karla;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    font-family: 'Roboto Slab';
+    background-color:navy;
+}
+
+.title{
+    font-size:30px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+section{
+    color:black;
+    background-image: url(../assets/pexels-christina-morillo-1181625.jpg);
+    background-size:cover;
+    overflow:hidden;
+}
+
+.formContainer{
+    padding:20px;
+    float:right;
+    max-width: 250px;
+    background-color:#ffffffBB
+}
+
+h2{
+    font-size: 20px;
+}
+
+.mb{
+margin-bottom:15px;
+}
+
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    padding:10px;
+    border-radius:20px;
+    margin-bottom:10px;
+    border-color:black;
+}
+
+input[type="submit"]{
+    color:white;
+    background-color: rgb(86, 146, 235);
+    font-weight: bold;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("../assets/arrow.jpg");
+    background-repeat: no-repeat;
+    background-position:calc(100% - 10px) center;
+}
+
+footer{
+    background-color: navy;
+    text-align: center;
+    color:white;
+}
+
+
+.description{
+    display: inline-block;
+    text-align: left;
+    max-width: 40%;
+}
+
+.description h3, .description p{
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
