@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    font-family: 'Roboto Slab';
+    font-family: karla;
     background-color:navy;
 }
 
@@ -59,7 +59,7 @@ input,select{
 
 input[type="submit"]{
     color:white;
-    background-color: rgb(86, 146, 235);
+    background-color: navy;
     font-weight: bold;
 }
 
@@ -73,9 +73,8 @@ select{
 }
 
 footer{
-    background-color: navy;
+    background-color: white;
     text-align: center;
-    color:white;
 }
 
 
